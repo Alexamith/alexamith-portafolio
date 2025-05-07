@@ -118,13 +118,6 @@ export const About = () => {
                 
             </div>               
 
-            {/* <div className="rounded-xl p-8 border-white/10 border hover:-tranlate-y-1 transition-all mt-8">
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-4">
-                        Work experience
-                    </h3>
-                </div>
-            </div> */}
 
         </div>
 
