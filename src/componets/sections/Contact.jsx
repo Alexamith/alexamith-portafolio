@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
-
+import { toast } from 'react-toastify';
 
 
 export const Contact = () => {
+
     const [formData, setFormData] = useState({
         name:"",
         email:"",
@@ -13,26 +14,22 @@ export const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(e)
-        console.log(import.meta.env.VITE_SERVICE_ID)
-        console.log(import.meta.env.VITE_TEMPLATE_ID)
-        console.log(import.meta.env.VITE_API_KEY)
         emailjs.sendForm(
             import.meta.env.VITE_SERVICE_ID, 
             import.meta.env.VITE_TEMPLATE_ID, 
             e.target, 
             import.meta.env.VITE_API_KEY
         ).then( (result)=> {
-            alert("Message sent");
+            toast.success("The message was sent successfully");
             setFormData({
                 name:"",
                 email:"",
                 message:""
             });
-        }).catch(()=> alert("Something went wrong. Please try again"));
+        }).catch(()=> toast.error("Something went wrong. Please try again"));
     }
 
-
+    
   return (
     <section id='contact' className='min-h-screen flex items-center justify-center py-20'> 
         

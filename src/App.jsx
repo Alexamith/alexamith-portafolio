@@ -8,6 +8,9 @@ import { Home } from './componets/sections/Home'
 import { About } from './componets/sections/About'
 import { Experience } from './componets/sections/Experience'
 import { Contact } from './componets/sections/Contact'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -26,7 +29,7 @@ function App() {
           <About/>
           <Experience/>
           <Contact/>
-
+          <ToastContainer />
         </div>
       
     </>
