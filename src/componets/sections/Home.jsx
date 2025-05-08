@@ -1,3 +1,4 @@
+import foto from '/me.jpeg';
 
 export const Home = () => {
   return (
@@ -8,7 +9,7 @@ export const Home = () => {
             <div className="flex justify-center space-x-4 mb-6" >
                 <div className="relative w-40 h-40 rounded-full overflow-hidden shadow-lg ring-4 ring-indigo-500/50">
                     <img
-                    src="/alexamith-portafolio/src/assets/me.jpeg" // Cambia esto por el path correcto o una URL
+                    src={foto} // Cambia esto por el path correcto o una URL
                     alt="Foto de perfil"
                     className="object-cover w-full h-full"
                     />
