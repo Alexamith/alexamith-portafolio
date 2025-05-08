@@ -3,7 +3,18 @@ export const Home = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative"> 
         
-        <div className="text-center z-10 px-4">
+        <div className="text-center z-10 px-4 ">
+
+            <div className="flex justify-center space-x-4 mb-6" >
+                <div className="relative w-40 h-40 rounded-full overflow-hidden shadow-lg ring-4 ring-indigo-500/50">
+                    <img
+                    src="/alexamith-portafolio/src/assets/me.jpeg" // Cambia esto por el path correcto o una URL
+                    alt="Foto de perfil"
+                    className="object-cover w-full h-full"
+                    />
+                </div>
+
+            </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
                 Hi, I'm Alex

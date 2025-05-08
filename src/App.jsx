@@ -1,5 +1,6 @@
 import './App.css'
 import './index.css'
+import 'react-toastify/dist/ReactToastify.css';
 import { LoadingScreen } from './componets/LoadingScreen'
 import { useState } from 'react'
 import { Navbar } from './componets/Navbar'
@@ -8,7 +9,6 @@ import { Home } from './componets/sections/Home'
 import { About } from './componets/sections/About'
 import { Experience } from './componets/sections/Experience'
 import { Contact } from './componets/sections/Contact'
-import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 
 
