@@ -19,9 +19,32 @@ export const Experience = () => {
                     </p>
 
                     <div className="p-6 rounded-xl border border-white/10 ">
+                        {/* HPE */}
+                        <div className="flex items-stretch gap-6 pl-2 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5">
+                                <a href="/" className="flex w-[50px] flex-shrink-0 items-center justify-center self-stretch">
+                                <div style={{ width: '50px', height: '30px', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '5px' }}>
+                                    <img
+                                        alt="Logo HPE"
+                                        src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Hewlett_Packard_Enterprise_logo_2025.svg/1280px-Hewlett_Packard_Enterprise_logo_2025.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+                                        width="50"
+                                        height="80"
+                                        className="object-contain"
+                                    />
+
+                                </div>
+                                </a>
+
+                                <div>
+                                <h4 className="text-lg font-semibold text-white mb-1"><strong>FULL STACK ENGINEER | HPE | Remote | 2025 - CURRENT</strong></h4>
+                                <p className="text-sm leading-relaxed">
+                                    Currently, I work as a Full Stack Engineer, responsible for designing, developing, testing, and implementing high-quality software solutions while following industry best practices and ensuring that client expectations and business requirements are met.
+
+                                </p>
+                                </div>
+                        </div>
                         {/* Totem */}
-                        <div className="flex items-start gap-6 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5">
-                                <a href="/" className="flex-shrink-0">
+                        <div className="flex items-stretch gap-6 pl-2 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5">
+                                <a href="/" className="flex w-[50px] flex-shrink-0 items-center justify-center self-stretch">
                                 <img
                                     alt="Logo Totem"
                                     src="https://totemcr.com/assets/img/logo/logo-totem.svg"
@@ -42,8 +65,8 @@ export const Experience = () => {
                         </div>
                         {/* Monge */}
 
-                        <div className="flex items-start gap-6 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5" >
-                            <a href="/" className="flex-shrink-0">
+                        <div className="flex items-stretch gap-6 pl-2 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5" >
+                            <a href="/" className="flex w-[50px] flex-shrink-0 items-center justify-center self-stretch">
                             <img
                                 alt="Logo Monge"
                                 src="https://www.grupomonge.com/assets/img/logo.svg"
@@ -64,8 +87,8 @@ export const Experience = () => {
                         </div>
                         {/* THL */}
 
-                        <div className="flex items-start gap-6 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5">
-                            <a href="/" className="flex-shrink-0">
+                        <div className="flex items-stretch gap-6 pl-2 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5">
+                            <a href="/" className="flex w-[50px] flex-shrink-0 items-center justify-center self-stretch">
                             <img
                                 alt="Logo THL"
                                 src="https://transporteshl.com/wp-content/uploads/2021/07/Frame.png"
@@ -86,11 +109,11 @@ export const Experience = () => {
                         </div>
                         {/* Nativo */}
 
-                        <div className="flex items-start gap-6 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5">
-                            <a href="/" className="flex-shrink-0">
+                        <div className="flex items-stretch gap-6 pl-2 text-gray-300 mb-5 hover:-translate-y-1 transition-all bg-white/5">
+                            <a href="/" className="flex w-[50px] flex-shrink-0 items-center justify-center self-stretch">
                             <img
                                 alt="Logo Nativo"
-                                src="https://media.licdn.com/dms/image/v2/C4E0BAQE5QoO8KdvV8g/company-logo_200_200/company-logo_200_200/0/1679695585914/nativolatam_logo?e=1752105600&v=beta&t=YmqWj0cMItJ9mLFUIRk9mdXv5fBHT4bQzrR7SOyo2KA"
+                                src="https://digital.nativo.la/wp-content/uploads/2024/07/Nativo-logo.png"
                                 width="50"
                                 height="30"
                                 className="object-contain"
